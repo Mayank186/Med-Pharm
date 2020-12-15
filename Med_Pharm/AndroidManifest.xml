@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.med_pharm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.med_pharm.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="login"></activity>
+        <activity android:name="after_login_main_menu"></activity>
+       
+        <activity android:name="new_user"></activity>
+        <activity android:name="after_login_product"></activity>
+        <activity android:name="sub_product"></activity>
+        <activity android:name="profile"></activity>
+        <activity android:name="detail_sub_product"></activity>
+        <activity android:name="order"></activity>
+        <activity android:name="feedback"></activity>
+        <activity android:name="change_password"></activity>
+        <activity android:name="forgottpass"></activity>
+        <activity android:name="make_order"></activity>
+        <activity android:name="setting"></activity>
+        <activity android:name="view_order"></activity>
+        <activity android:name="contact_us"></activity>
+
+
+    </application>
+
+</manifest>

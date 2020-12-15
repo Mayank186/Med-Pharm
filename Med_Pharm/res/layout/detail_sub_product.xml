@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="@color/back_color"
+    android:gravity="top" >
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/front_color" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Add To Cart"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/back_color"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="15dp"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/front_color" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="10"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:text="Content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/front_color" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView02"
+        android:layout_alignBottom="@+id/TextView02"
+        android:layout_toRightOf="@+id/TextView02"
+        android:ems="10"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="15dp"
+        android:text="Rate(Rs)"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/front_color" />
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView03"
+        android:layout_alignBottom="@+id/TextView03"
+        android:layout_toRightOf="@+id/TextView03"
+        android:ems="10"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+    
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView03"
+        android:layout_marginTop="15dp"
+        android:text="Company"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/front_color" />
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView04"
+        android:layout_alignBottom="@+id/TextView04"
+        android:layout_toRightOf="@+id/TextView04"
+        android:ems="10"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView04"
+        android:layout_marginTop="15dp"
+        android:text="Mfg_Date"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/front_color" />
+
+    <TextView
+        android:id="@+id/mfg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView05"
+        android:layout_alignBottom="@+id/TextView05"
+        android:layout_toRightOf="@+id/TextView05"
+        android:ems="10"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView05"
+        android:layout_marginTop="15dp"
+        android:text="Exp_Date"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/front_color" />
+
+    <TextView
+        android:id="@+id/exp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView06"
+        android:layout_alignBottom="@+id/TextView06"
+        android:layout_toRightOf="@+id/TextView06"
+        android:ems="10"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView06"
+        android:layout_marginTop="15dp"
+        android:text="Strip"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/front_color" />
+
+    
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/exp"
+        android:layout_alignTop="@+id/TextView07"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/cart"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true"
+        android:text="add to cart" 
+        android:textColor="@color/back_color"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/arc_detail"/>
+    
+</RelativeLayout>

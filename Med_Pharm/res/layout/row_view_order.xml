@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tvpname"
+        
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/front_color"
+        android:textSize="14dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvrate"
+        android:textColor="@color/front_color"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvpname"
+        android:layout_toRightOf="@+id/tvpname"
+        android:text="Small Text"
+        android:textSize="14dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/tvqty"
+        android:textColor="@color/front_color"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvrate"
+        android:layout_toRightOf="@+id/tvrate"
+        android:text="Small Text"
+        android:textSize="14dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvstatus"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvqty"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/tvqty"
+        android:text="Small Text"
+        android:textColor="@color/front_color"
+        android:textSize="14dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+    
+    
+
+</RelativeLayout>

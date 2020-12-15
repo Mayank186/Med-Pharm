@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="@color/back_color"
+    android:gravity="top" >
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/front_color" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Feedback"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/back_color"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="text" >
+
+       <requestFocus />
+   </EditText>
+
+   <EditText
+       android:id="@+id/fdes"
+       android:layout_width="250dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/fname"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="7dp"
+       android:layout_marginTop="15dp"
+       android:ems="10"
+       android:hint="Enter Description"
+       android:inputType="textMultiLine" />
+
+   <RatingBar
+       android:id="@+id/ratingBar1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/fdes"
+       android:layout_below="@+id/fdes"
+       android:layout_marginBottom="7dp"
+       android:layout_marginTop="15dp" />
+
+   <Button
+       android:id="@+id/fbtn"
+       android:layout_width="250dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/ratingBar1"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/arc_detail"
+       android:text="Submit"
+       android:textColor="@color/back_color" />
+    
+    </RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Med_Pharm</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="back_color">#ffffcc</color>
+	<color name="front_color">#94ABC3</color>
+	<string-array name="Item">
+		<item >30</item>
+		<item >40</item>
+		<item >50</item>
+		<item >60</item>
+		<item >70</item>
+	</string-array>
+</resources>
